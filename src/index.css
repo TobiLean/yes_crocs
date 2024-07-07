@@ -7,6 +7,17 @@ body {
   font-family: "Inter";
 }
 
+.all-container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    min-height: 100px;
+    height: max-content;
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+}
 
 @media (prefers-color-scheme: light) {
   :root {
