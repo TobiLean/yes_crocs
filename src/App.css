@@ -1127,24 +1127,68 @@ details[open] summary svg.svg-down {
   font-weight: 700;
   line-height: 26.63px;
   text-align: left;
-  color: #000000E5;
-  ;
+  color: #000000e5;
 }
 
-.subtotal-div, .shipping-div, .total-div {
+.subtotal-div,
+.shipping-div,
+.total-div {
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 26px;
 }
 
-.checkout-main-right .button-component span{
-  color: #FFFFFF;
+.checkout-main-right .button-component span {
+  color: #ffffff;
 }
 
 .checkout-main-right .button-component {
   width: 100%;
   height: 69px;
+}
+
+.join-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.join-field {
+  width: 387px;
+  height: 52px;
+  top: 153px;
+  left: 1001px;
+  padding: 0px 0px 0px 28px;
+  gap: 0px;
+  border-radius: 12px 0px 0px 12px;
+  opacity: 0px;
+  box-sizing: border-box;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: left;
+  color: var(--border-grey);
+}
+
+.join-button {
+  box-sizing: border-box;
+  width: 89px;
+  height: 52px;
+  left: 298px;
+  padding: 19px 14px 18px 15px;
+  gap: 0px;
+  border-radius: 0px 12px 12px 0px;
+  opacity: 0px;
+  border: none;
+  background-color: var(--dark-green);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.52px;
+  text-align: left;
+  color: white;
 }
 
 /* Adding responsiveness */
@@ -1747,6 +1791,35 @@ details[open] summary svg.svg-down {
     font-size: 10px;
     font-weight: 800;
     line-height: 12.1px;
-    text-align: left;    
+    text-align: left;
+  }
+
+  .join-div {
+    margin-top: 7px;
+  }
+
+  .join-field {
+    width: 125px;
+    height: 15px;
+    top: 214px;
+    left: 20px;
+    padding: 0px 0px 0px 9.09px;
+    border-radius: 4px 0px 0px 4px;
+    font-size: 4.55px;
+    font-weight: 700;
+    line-height: 5.5px;
+    text-align: left;
+  }
+
+  .join-button {
+    width: 31.06px;
+    height: 15.15px;
+    left: 93.94px;
+    padding: 5.3px 3.52px 3.85px 4.55px;
+    font-size: 4.55px;
+    font-weight: 700;
+    line-height: 5.5px;
+    text-align: left;
+    border-radius: 0px 4px 4px 0px;
   }
 }

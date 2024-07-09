@@ -14,29 +14,35 @@ let productList = [
     price: 12000,
     colour: "#B2A290",
     size: 41,
-    imageUrl: "/images/IMG-20240706-WA0009.png",
+    imageUrl: "/images/IMG-20240706-WA0012.png",
   },
   {
     id: "002",
     name: "Custom green crocs",
+    status: true,
     rating: 4.5,
     price: 17000,
+    colour: "#434C16",
     size: 38,
-    imageUrl: "/images/IMG-20240706-WA0009.png",
+    imageUrl: "/images/IMG-20240706-WA0002.png",
   },
   {
     id: "003",
     name: "Barbie custom crocs",
+    status: true,
     rating: 4.5,
     price: 40000,
+    colour: "#D9297A",
     size: 41,
-    imageUrl: "/images/IMG-20240706-WA0009.png",
+    imageUrl: "/images/IMG-20240706-WA0008.png",
   },
   {
     id: "004",
     name: "Yellow custom crocs",
+    status: true,
     rating: 4.5,
     price: 56000,
+    colour: "#E1BC02",
     size: 40,
     imageUrl: "/images/IMG-20240706-WA0009.png",
   },
@@ -158,12 +164,12 @@ export default function Checkout() {
               <span className="subtotal-price">N125,000</span>
             </div>
             <div className="shipping-div">
-              <span className="subtotal-title">Subtotal</span>
-              <span className="subtotal-price">N125,000</span>
+              <span className="subtotal-title">Shipping</span>
+              <span className="subtotal-price">N3,000</span>
             </div>
             <div className="total-div">
-              <span className="subtotal-title">Subtotal</span>
-              <span className="subtotal-price">N125,000</span>
+              <span className="subtotal-title">Total</span>
+              <span className="subtotal-price">N128,000</span>
             </div>
           </div>
           <ButtonComponent text={"Pay N128,000"}/>

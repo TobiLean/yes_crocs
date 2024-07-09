@@ -1,3 +1,5 @@
+import JoinNewsletter from "./JoinNewsletter";
+
 export default function Footer() {
   return (
     <div className="footer">
@@ -34,6 +36,7 @@ export default function Footer() {
         <div className="footer-right">
           <h2>Join Our Newsletter Now</h2>
           <span>Get Email updates about our latest arrivials and offers</span>
+          <JoinNewsletter />
         </div>
       </div>
       <div className="footer-bottom">
