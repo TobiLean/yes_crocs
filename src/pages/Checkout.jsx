@@ -13,7 +13,7 @@ let productList = [
     price: 30000,
     colour: "#B2A290",
     size: 41,
-    imageUrl: "/public/images/IMG-20240706-WA0009.png",
+    imageUrl: "/images/IMG-20240706-WA0009.png",
   },
   {
     id: "002",
@@ -21,7 +21,7 @@ let productList = [
     rating: 4.5,
     price: 30000,
     size: 41,
-    imageUrl: "/public/images/IMG-20240706-WA0009.png",
+    imageUrl: "/images/IMG-20240706-WA0009.png",
   },
   {
     id: "003",
@@ -29,7 +29,7 @@ let productList = [
     rating: 4.5,
     price: 30000,
     size: 41,
-    imageUrl: "/public/images/IMG-20240706-WA0009.png",
+    imageUrl: "/images/IMG-20240706-WA0009.png",
   },
   {
     id: "004",
@@ -37,7 +37,7 @@ let productList = [
     rating: 4.5,
     price: 30000,
     size: 41,
-    imageUrl: "/public/images/IMG-20240706-WA0009.png",
+    imageUrl: "/images/IMG-20240706-WA0009.png",
   },
 ];
 
