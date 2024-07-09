@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Product from "../components/Product";
 import ButtonComponent from "../components/ButtonComponent";

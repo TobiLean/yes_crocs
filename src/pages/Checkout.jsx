@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import CheckoutProduct from "../components/CheckoutProduct";
 import PaymentMethod from "../components/PaymentMethod";
@@ -44,8 +43,6 @@ let productList = [
 export default function Checkout() {
   return (
     <>
-      {/* <div className="all-container"> */}
-      <Navbar />
       <div className="checkout-main">
         <div className="checkout-main-left">
           <div className="back-button-div">
