@@ -52,7 +52,7 @@ export default function Footer() {
                 fill="black"
               />
             </svg>{" "}
-            2024 yescrocs. All rights reserved
+            <span className="footer-bottom-text">2024 yescrocs.  Powered by Apex groups.All rights reserved</span>
           </span>
         </div>
       </div>

@@ -430,6 +430,14 @@ details[open] summary svg.svg-down {
   justify-content: center;
 }
 
+.footer-bottom-text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: center;
+}
+
 .footer-copyright {
   width: 100%;
   border: 1px solid var(--divider-color);
@@ -437,6 +445,7 @@ details[open] summary svg.svg-down {
   opacity: 0px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-copyright span {
@@ -794,7 +803,7 @@ details[open] summary svg.svg-down {
   width: 100%;
   max-height: 809px;
   overflow-y: auto;
-  margin: 29px 0px 0px 0px;
+  margin: 29px 0px 68px 0px;
   box-sizing: border-box;
   border: 1px solid #777676;
   padding: 21px 0px 17px 0px;
@@ -1044,6 +1053,101 @@ details[open] summary svg.svg-down {
   box-sizing: border-box;
   border-radius: 4px;
 }
+
+.delivery-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  text-align: left;
+  margin: 0px;
+}
+
+.delivery-container {
+  width: max-content;
+  min-width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delivery-option-left {
+  width: 50%;
+}
+
+.delivery-desc {
+  margin-top: 50px;
+}
+
+.deliver-to {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  text-align: left;
+}
+
+.delivery-type-green {
+  background-color: var(--navbar-color);
+  width: 190px;
+  height: 39px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: center;
+  color: var(--dark-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px 0px 24px;
+}
+
+.delivery-type-grey {
+  background-color: var(--shy-grey);
+  width: 190px;
+  height: 39px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: center;
+  color: var(--dark-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px 0px 24px;
+}
+
+.delivery-check .save-card-div {
+  margin: 0px;
+  justify-content: flex-end;
+}
+
+.cost-summary {
+  width: 100%;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.63px;
+  text-align: left;
+  color: #000000E5;
+  ;
+}
+
+.subtotal-div, .shipping-div, .total-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.checkout-main-right .button-component span{
+  color: #FFFFFF;
+}
+
+.checkout-main-right .button-component {
+  width: 100%;
+  height: 69px;
+}
+
+/* Adding responsiveness */
 
 @media screen and (max-width: 500px) {
   #navbar {
@@ -1615,7 +1719,34 @@ details[open] summary svg.svg-down {
   }
 
   .all-checkout-items-container {
-    margin: 12.04px 0px 0px 0px;
+    margin: 12.04px 0px 23.96px 0px;
     padding: 12.29px 0px 12.87px 0px;
+  }
+
+  .delivery-check .save-card-div {
+    width: 51px;
+    display: block;
+    margin-top: 50px;
+  }
+
+  .delivery-container {
+    min-width: 300px;
+  }
+
+  .checkout-main-right h1 {
+    margin-top: 31px;
+  }
+
+  .checkout-main-right .button-component {
+    width: 167px;
+    height: 33px;
+    border-radius: 4px;
+  }
+
+  .checkout-main-right .button-component span {
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 12.1px;
+    text-align: left;    
   }
 }

@@ -3,39 +3,41 @@ import CheckoutProduct from "../components/CheckoutProduct";
 import PaymentMethod from "../components/PaymentMethod";
 import FormField from "../components/FormField";
 import SaveCard from "../components/SaveCard";
+import DeliveryOption from "../components/DeliveryOption";
+import ButtonComponent from "../components/ButtonComponent";
 
 let productList = [
   {
     id: "001",
-    name: "cow",
+    name: "Pink camouflage crocs",
     status: true,
-    price: 30000,
+    price: 12000,
     colour: "#B2A290",
     size: 41,
     imageUrl: "/images/IMG-20240706-WA0009.png",
   },
   {
     id: "002",
-    name: "cow",
+    name: "Custom green crocs",
     rating: 4.5,
-    price: 30000,
-    size: 41,
+    price: 17000,
+    size: 38,
     imageUrl: "/images/IMG-20240706-WA0009.png",
   },
   {
     id: "003",
-    name: "cow",
+    name: "Barbie custom crocs",
     rating: 4.5,
-    price: 30000,
+    price: 40000,
     size: 41,
     imageUrl: "/images/IMG-20240706-WA0009.png",
   },
   {
     id: "004",
-    name: "cow",
+    name: "Yellow custom crocs",
     rating: 4.5,
-    price: 30000,
-    size: 41,
+    price: 56000,
+    size: 40,
     imageUrl: "/images/IMG-20240706-WA0009.png",
   },
 ];
@@ -76,6 +78,21 @@ export default function Checkout() {
             {productList.map((product) => (
               <CheckoutProduct key={product.id} product={product} />
             ))}
+          </div>
+          <div className="delivery-section">
+            <h2>Delivery Options</h2>
+            <DeliveryOption
+              itemNumber={"1"}
+              title={"Deliver to me"}
+              text={"Add Delivery Address"}
+              colour={"green"}
+            />
+            <DeliveryOption
+              itemNumber={"2"}
+              title={"Deliver to me"}
+              text={"Select Pickup Location"}
+              colour={"grey"}
+            />
           </div>
         </div>
         <div className="checkout-main-right">
@@ -137,11 +154,19 @@ export default function Checkout() {
           </form>
           <div className="cost-summary">
             <div className="subtotal-div">
-                <span></span>
+              <span className="subtotal-title">Subtotal</span>
+              <span className="subtotal-price">N125,000</span>
             </div>
-            <div className="shipping-div"></div>
-            <div className="total-div"></div>
+            <div className="shipping-div">
+              <span className="subtotal-title">Subtotal</span>
+              <span className="subtotal-price">N125,000</span>
+            </div>
+            <div className="total-div">
+              <span className="subtotal-title">Subtotal</span>
+              <span className="subtotal-price">N125,000</span>
+            </div>
           </div>
+          <ButtonComponent text={"Pay N128,000"}/>
         </div>
       </div>
       <Footer />
