@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Product from "../components/Product";
-import SeeMore from "../components/SeeMore";
+import ButtonComponent from "../components/ButtonComponent";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 
@@ -108,7 +108,7 @@ function Home() {
       <Sidebar />
       <div className="all-container">
         <Navbar />
-        <main>
+        <main className="home-main">
           <h1>
             Product List <span>({productList.length})</span>
           </h1>
@@ -117,7 +117,7 @@ function Home() {
               <Product key={product.id} product={product} />
             ))}
           </div>
-          <SeeMore />
+          <ButtonComponent text={"see more"} route={"/"} />
         </main>
         <Banner title={"Kids summer collection"} />
         <div className="special-section">
