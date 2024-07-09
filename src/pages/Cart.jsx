@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ButtonComponent from "../components/ButtonComponent";
 import CartProduct from "../components/CartProduct";
@@ -42,7 +41,7 @@ export default function Cart() {
   return (
     <>
       {/* <div className="all-container"> */}
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="back-button-div">
         <a href="/">
           <svg
