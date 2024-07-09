@@ -107,7 +107,7 @@ function Home() {
     <>
       <Sidebar />
       <div className="all-container">
-        <Navbar />
+        {/* <Navbar /> */}
         <main className="home-main">
           <h1>
             Product List <span>({productList.length})</span>
