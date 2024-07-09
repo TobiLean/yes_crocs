@@ -6,6 +6,7 @@
   --divider-color: #b0adad;
   --pale-green: #224f34cc;
   --item-color: #eff8f4;
+  --shy-grey: #8f908f;
 }
 
 #navbar {
@@ -713,4 +714,334 @@ details[open] summary svg.svg-down {
   padding: 0px;
   box-sizing: border-box;
   background-color: var(--item-color);
+}
+
+/* Checkout page styling */
+
+.checkout-main {
+  position: relative;
+  margin: 128px auto 0px auto;
+  width: calc(100% - 100px);
+  display: flex;
+  align-items: flex-start;
+}
+
+.checkout-main-right {
+  position: relative;
+  width: 40.98746081504702%;
+  background-color: red;
+  margin: 0px 0px 0px 64px;
+}
+
+.checkout-main-right h1 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33.89px;
+  text-align: left;
+  color: #000000e5;
+  margin: 0px 0px 9px 0px;
+}
+
+.checkout-main-right .h1-desc {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  text-align: left;
+  color: var(--border-grey);
+}
+
+.checkout-main-right h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  text-align: left;
+  color: #000000;
+}
+
+.checkout-main-left {
+  position: relative;
+  width: 58.15047021943574%;
+}
+
+.checkout-main-left h1 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33.89px;
+  text-align: left;
+  color: #000000e5;
+  margin: 37px 0px 9px 0px;
+}
+
+.checkout-main-left .h1-desc {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  text-align: left;
+  color: var(--border-grey);
+}
+
+.checkout-main-left .back-button-div {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  padding: 0px 50px 0px 0px;
+  box-sizing: border-box;
+  position: relative;
+  top: 0px;
+}
+
+.all-checkout-items-container {
+  width: 100%;
+  max-height: 809px;
+  overflow-y: auto;
+  margin: 29px 0px 0px 0px;
+  box-sizing: border-box;
+  border: 1px solid #777676;
+  padding: 21px 0px 17px 0px;
+  border-radius: 12px;
+}
+
+.all-checkout-items-container::-webkit-scrollbar {
+  display: none;
+}
+
+.checkout-product-container {
+  width: 100%;
+  height: 162px;
+  padding: 0px 64px 0px 21px;
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 41px 0px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+
+.checkout-product-container .product-image {
+  width: 181px;
+  height: 162px;
+  margin: 0px;
+  background-color: var(--item-color);
+  border: 1px solid var(--border-dark-grey);
+  border-radius: 12px;
+}
+
+.checkout-product-container .product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.checkout-product-all-info {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: calc(100% - 181px);
+}
+
+.checkout-product-details {
+  margin: 0px 0px 0px 12px;
+}
+
+.checkout-product-price {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  text-align: left;
+  color: #000000;
+}
+
+.checkout-product-specs {
+  display: flex;
+  align-items: center;
+  width: 61px;
+  min-height: 24px;
+  height: max-content;
+  justify-content: space-between;
+  margin: 9px 0px 0px 0px;
+}
+
+.specs-divider {
+  height: 24px;
+  width: 1px;
+  background-color: #d7dedb;
+}
+
+.checkout-product-colour {
+  display: flex;
+  align-items: center;
+}
+
+.checkout-product-size {
+  padding: 0px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  color: #000000e5;
+}
+
+.product-status {
+  width: max-content;
+  min-width: Hug(59px) px;
+  height: Hug(27px) px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: var(--navbar-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 9px 0px 0px 0px;
+}
+
+.product-status span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: center;
+  color: var(--dark-green);
+}
+
+.checkout-product-actions {
+  margin: 10.5px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.remove-button-div {
+  margin: 0px 20px 0px 0px;
+}
+
+.remove-button-sm {
+  display: flex;
+  align-items: end;
+}
+
+.remove-button-sm svg {
+  margin: 0px 7.25px 0px 0px;
+}
+
+.remove-button-sm span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  color: var(--shy-grey);
+}
+
+.save-for-later-button {
+  display: flex;
+  align-items: end;
+}
+
+.save-for-later-button svg {
+  margin: 0px 9px 0px 0px;
+}
+
+.save-for-later-button span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  color: var(--shy-grey);
+}
+
+/* Payment method styling */
+
+.radio-payment input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.radio-payment-label-div {
+  width: 90px;
+  height: 64.55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.radio-payment input:checked + .radio-payment-label-div {
+  border-radius: 7.45px;
+  border: 0.62px solid #000000;
+}
+
+.radio-payment {
+  width: max-content;
+}
+
+.payment-method-div {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin: 0px 0px 29.45px 0px;
+}
+
+/* Form field styling */
+
+.form-field-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field-div label {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  text-align: left;
+  color: #000000e5;
+}
+
+.form-field-div input {
+  width: 100%;
+  height: 69px;
+  padding: 0px 0px 0px 13px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid var(--shy-grey);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  text-align: left;
+  color: #00000080;
+  margin: 21px 0px 21px 0px;
+}
+
+#billing-address-field-id-label {
+  margin: 49px 0px 0px 0px;
+}
+
+.save-card-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 21px 0px 0px 0px;
+}
+
+.save-card-div label {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  text-align: left;
+  color: #000000;
+  margin: 0px 0px 0px 23px;
+}
+
+.save-card-input {
+  appearance: none;
+  width: 51px;
+  height: 35px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  margin: 0px;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
