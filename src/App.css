@@ -1928,3 +1928,31 @@ details[open] summary svg.svg-down {
     border-radius: 0px 4px 4px 0px;
   }
 }
+
+@media screen and (max-width: 1400px) and (min-width: 1000px) {
+  .product-grid {
+    zoom: 0.8;
+  }
+
+  .special-section-grid {
+    zoom: 0.85;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 300px) {
+  .product-grid {
+    zoom: 0.8;
+  }
+
+  .special-section-grid {
+    zoom: 0.85;
+  }
+
+  .product-grid {
+    column-gap: 60px;
+  }
+
+  .special-section-grid {
+    column-gap: 50px;
+  }
+}
