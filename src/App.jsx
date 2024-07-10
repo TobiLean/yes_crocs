@@ -26,11 +26,13 @@ import "./index.css";
 
 import "./App.css";
 import Navbar from "./components/Navbar";
+import NavbarSm from "./components/NavbarSm";
 
 function App() {
   return (
     <>
       <Navbar />
+      <NavbarSm />
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />

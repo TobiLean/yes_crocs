@@ -8,7 +8,36 @@ export default function Product({ product }) {
       <div className="product-info">
         <span className="product-name">{product.name}</span>
         <div className="product-rating">
-          <span className="rating-star">SSSSS</span>
+          <span className="rating-star">
+            <svg
+              width="45"
+              height="9"
+              viewBox="0 0 45 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.5 0L5.51031 3.10942H8.77975L6.13472 5.03115L7.14503 8.14058L4.5 6.21885L1.85497 8.14058L2.86528 5.03115L0.220246 3.10942H3.48969L4.5 0Z"
+                fill="#F7A426"
+              />
+              <path
+                d="M13.5 0L14.5103 3.10942H17.7798L15.1347 5.03115L16.145 8.14058L13.5 6.21885L10.855 8.14058L11.8653 5.03115L9.22025 3.10942H12.4897L13.5 0Z"
+                fill="#F7A426"
+              />
+              <path
+                d="M22.5 0L23.5103 3.10942H26.7798L24.1347 5.03115L25.145 8.14058L22.5 6.21885L19.855 8.14058L20.8653 5.03115L18.2202 3.10942H21.4897L22.5 0Z"
+                fill="#F7A426"
+              />
+              <path
+                d="M31.5 0L32.5103 3.10942H35.7798L33.1347 5.03115L34.145 8.14058L31.5 6.21885L28.855 8.14058L29.8653 5.03115L27.2202 3.10942H30.4897L31.5 0Z"
+                fill="#F7A426"
+              />
+              <path
+                d="M45 3.44129H41.5567L40.5 0L39.4433 3.44129H36L38.8164 5.55871L37.7196 9L40.5 6.86732L43.2804 9L42.1815 5.55871L45 3.44129ZM40.8493 6.3446L40.5 6.07681V2.05694L40.9875 3.64219L41.1233 4.08415H43.0993L41.8371 5.03237L41.4679 5.3098L41.6137 5.76683L42.1061 7.30868L40.8493 6.3446Z"
+                fill="#F7A426"
+              />
+            </svg>
+          </span>
           <span className="rating-label">{product.rating}</span>
         </div>
         <div className="product-price">{product.price}</div>
