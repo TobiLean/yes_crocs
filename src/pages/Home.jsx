@@ -126,6 +126,7 @@ function Home() {
             ))}
           </div>
         </div>
+        <ButtonComponent text={"see more"} route={"/"} />
         <Footer />
       </div>
     </>

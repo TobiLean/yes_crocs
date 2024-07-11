@@ -446,11 +446,16 @@ details[open] summary svg.svg-down {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 9.68px;
+  text-align: center;
 }
 
 .footer-copyright span {
   display: flex;
   align-items: center;
+  color: #000000CC;
 }
 
 .footer-left {
@@ -1153,6 +1158,7 @@ details[open] summary svg.svg-down {
   display: flex;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 13px;
 }
 
 .join-field {
@@ -1288,6 +1294,10 @@ details[open] summary svg.svg-down {
   line-height: 14.52px;
   text-align: left;
   color: var(--border-grey);
+}
+
+.socials-svg-sm {
+  display: none;
 }
 
 /* Adding responsiveness */
@@ -1559,6 +1569,7 @@ details[open] summary svg.svg-down {
     justify-content: center;
     align-items: center;
     height: 40px;
+    margin-top: 16px;
   }
 
   .footer-copyright {
@@ -1572,6 +1583,11 @@ details[open] summary svg.svg-down {
     font-weight: 600;
     line-height: 9.68px;
     text-align: center;
+  }
+
+  .footer-copyright span svg {
+    width: 6px;
+    height: 6px;
   }
 
   .cart-header span {
@@ -1901,6 +1917,7 @@ details[open] summary svg.svg-down {
 
   .join-div {
     margin-top: 7px;
+    margin-bottom: 8px;
   }
 
   .join-field {
@@ -1926,6 +1943,19 @@ details[open] summary svg.svg-down {
     line-height: 5.5px;
     text-align: left;
     border-radius: 0px 4px 4px 0px;
+  }
+
+  .socials-svg {
+    display: none;
+  }
+
+  .socials-svg-sm {
+    display: block;
+  }
+
+  .socials-div {
+    width: 78px;
+    height: 18px;
   }
 }
 
